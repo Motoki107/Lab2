@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 110 Lab2</title>
+    <link rel="shortcut icon" type="image/png" href="Favicon_Image_Location/download.png"/>
+</head>
+<body>
+    <header>
+        <div> CSE 110 Meating Minutes Contents</div>
+
+        <nav>
+            <ul>
+                <li><a href="#opening">Opening</a></li>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#previousBusiness">Business from the Previous Meeting</a></li>
+                <li><a href="#schedule">Schedule a meeting</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <h1>CSE 110 Lab2 Meating Minutes Example
+        <h2>October 3, 2021
+
+        <section>
+            <h2 id="opening">Opening</h2>
+            <p strong>CSE Building 2nd Floor at UCSD campus</p>
+            <details open>
+                <summary>CSE Building</summary>
+                <p>A building for Computer Science and Engineering field at UCSD</p>
+                <div>This building is located next to Warren Mall</div>
+            </details>
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/539f7cb6e4b07b2ee71b65cb/1485290853551-2JD1B8EOI5SS9F4XL5A8/CSE-IMAGE-410_new.jpg?format=300w"
+                alt="CSE building"
+                width="400"
+            >
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="attendance">Attendance</h2>
+            <ol>
+                <li>
+                    <input type="checkbox" /> Motoki Shintani
+                </li>
+                <li>
+                    <input type="checkbox" /> John Do
+                </li>
+                <li>
+                    <input type="checkbox" /> Random Guy
+                </li>
+                <li>
+                    <input type="checkbox" /> Random Girl
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="previousBusiness">Business from the Previous Meeting</h2>
+            <p>
+                <em>Important!</em> 
+                <br>
+                In the previous meeting, we decided not to use <i> fancy Javascript effects </i> on our website as it takes days and hours to implement.
+            </p>
+        </section>
+
+
+
+        <footer>
+            <h2 id="schedule">Schedule a meeting</h2>
+            <h6> To schedue a next team meeting, we need to figure out everyone's availability. <b>Please fill out the form below!</b></h6>
+            
+            <fieldset>
+                <legend>Your Information:</legend>
+                Name:<input type="text"> 
+                Student Id:<input type="text"> 
+            </fieldset>
+
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label>
+              
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+
+            <form action="">
+                <label>Your College: </label>
+                <input list="college">
+                
+                <datalist id="college">
+                    <option value="Revelle"/>
+                    <option value="Muir"/>
+                    <option value="Marshall"/>
+                    <option value="Warren"/>
+                    <option value="Roosevelt"/>
+                    <option value="Sixth"/>
+                    <option value="Seventh"/>
+                </datalist>
+            </form>
+           
+            <label for="start">
+                Enter Your Birth day:
+            </label>         
+            <input type="date" name="begin" 
+                placeholder="dd-mm-yyyy" value=""
+                min="1900-01-01" max="2021-12-31">
+
+            <form onsubmit="alert('Submitted')">
+                <input type="text" placeholder="Enter Email Address" />
+                <button>Submit</button>
+            </form>
+
+            <br />
+
+            <p><b>Please choose your preferred date for the next meeting</b></p>
+            
+            <select>
+                <option value="first">10/5/2021 at 2pm</option>
+                <option value="second">10/5/2021 at 4pm</option>
+                <option value="third">10/7/2021 at 2pm</option>
+                <option value="fourth">10/7/2021 at 4pm</option>
+            </select>
+
+            <br /> 
+            
+            <form action="#">
+                <textarea rows="10"
+                          cols="40"
+                          name="comments">If you have any comments, feel free to leave it here!!!
+                </textarea>
+            </form>
+            <br />
+
+            <audio controls>
+                <source src="Audio\Cat-purring-sound-effect.mp3" type="audio/mp3">
+            </audio>
+
+            <video width="400" height="350" controls>
+                <source src="Video\30_seconds_digital_clock_display_of_fifteen_segments.mp4" type="video/mp4">
+            </video>
+
+
+
+        </footer>
+
+
+
+
+
+
+    
+    </main>
+
+
+
+</body>
+</html>
