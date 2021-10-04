@@ -1,2 +1,2 @@
 # Lab2
-CSE 110 Fall Lab2
+https://motoki107.github.io/Lab2/
